@@ -59,8 +59,8 @@
     scanf("%f", &pib1);
     printf("Digite o número de pontos turísticos:\n");
     scanf("%d", &num_de_pontos_turisticos1);
-    densidade = (float)populacao1 / area1;
-    pib_per = (float)pib1 / populacao1;
+    densidade1 = (float)populacao1 / area1;
+    pib_per1 = (float)pib1 / populacao1;
 
     printf("\n\nExibindo os Dados Cadastrados\n\n");
     
