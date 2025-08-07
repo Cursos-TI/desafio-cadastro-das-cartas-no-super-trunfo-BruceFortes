@@ -1,6 +1,7 @@
 #include <stdio.h>
     int main(){
-        
+
+     // Carta 1
     char estado[20];
     char codigo[4];
     char nomecidade[20];
@@ -11,6 +12,7 @@
     float densidade;
     float pib_per;
 
+    //Carta 2
     char estado1[20];
     char codigo1[4];
     char nomecidade1[20];
