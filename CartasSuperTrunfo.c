@@ -1,5 +1,6 @@
 #include <stdio.h>
     int main(){
+        
     char estado[20];
     char codigo[4];
     char nomecidade[20];
