@@ -123,7 +123,7 @@ int main()
     printf("\n*** Exibir os resultdos das comparações: ***\n\n");
 
     // População
-    printf("População:\n %s\n",
+    printf("População:\n %s %s\n",
            populacao1 > populacao2 ? "Carta 1 Venceu\n" : "Carta 1 Perdeu\n",
            populacao2 > populacao1 ? "Carta 2 Venceu\n" : "Carta 2 Perdeu\n",
            populacao1, populacao2);
