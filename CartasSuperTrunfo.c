@@ -148,8 +148,8 @@ int main()
 
     // Densidade Populacional
     printf("Densidade Populacional:\n %s %s\n",
-           densidade1 > densidade2 ? "Carta 1 Venceu\n" : "Carta 1 Perdeu\n",
-           densidade2 > densidade1 ? "Carta 2 Venceu\n" : "Carta 2 Perdeu\n",
+           densidade1 < densidade2 ? "Carta 1 Venceu\n" : "Carta 1 Perdeu\n",
+           densidade2 < densidade1 ? "Carta 2 Venceu\n" : "Carta 2 Perdeu\n",
            densidade1, densidade2);
 
     // PIB per Capita
